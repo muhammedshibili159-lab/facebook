@@ -1,0 +1,78 @@
+.parent{
+    display:flex;
+    margin:0;
+    padding:0;
+    flex-direction:row;
+}
+.child1,.child2{
+    flex:1;
+}
+#img2{
+    display:flex;
+   justify-content:center;
+   width:700px;
+   height:700px;
+   margin-bottom:100;
+}
+.child2{
+    border-left:solid 1px lightgrey;
+    display:flex;
+    align-items:center;
+    margin-left:40px;
+}
+#img1{
+    height:40px;
+    width:80px;
+
+}
+form{
+    margin-left:20px;
+    display:flex;
+flex-direction:column;
+}
+input{
+    border-radius:8px;
+    padding:10px;
+    width :600px;
+} 
+button{
+    border-radius:80px;
+    padding:10px;
+    width: 600px;
+    border:none;
+}
+
+h1{
+    margin-top:0;
+    font-size:50px;
+}
+#img1{
+    margin-top:20px;
+}
+
+#login{
+    background-color:blue;
+    color:white;
+}
+
+.meta{
+    height:100px;
+    width:150px;
+    display:flex;
+    margin-left:250px;
+}
+.fclass{
+    background-color:white;
+   border-color:white; 
+}
+.fclass:hover{
+    background-color:rgb(228, 223, 223);
+}
+.cclass{
+    border:blue 1px solid;
+    background-color:white;
+    color:blue;
+}
+.cclass:hover{
+    background-color:rgb(228, 223, 223);
+}
